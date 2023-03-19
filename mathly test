@@ -1,0 +1,85 @@
+  //  Q 1 
+
+// function check(str) {
+//   if (str.length > 4 && str.substr(4, 4) === "") {
+//   str.substr(0, 4) + str.substr(8);
+//   } else {
+//   str;
+//   }
+// }
+// console.log("rustam khan "); 
+
+//  Q 2
+
+// function i (str) {
+//   let words = str.split(" ");
+//   for (let i = 0; i < words.length; i++) {
+//     f[i] = f[i].charAt(0).toUpperCase() + f[i].slice(1);
+//   }
+//   let Str = f.join(" ");
+//    Str;
+// }
+// console.log("rustam khan ajmer raj.");
+
+
+//  Q 3.
+// function samDigits(num) {
+//   const numString = numString.toString()
+//   for (let i = 1; i < numString.length; i++) {
+//     if (numString[i] !== numString[0]) {
+//     return false;
+//     }
+//   }
+//    return true;
+// }
+// console.log(samDigits(2222));
+
+//  Q 4 .
+
+// function reverseNumber(num) {
+//   let reversedNum = 0;
+//   while (num !== 0) {
+//     let lastDigit = num % 10;
+//     reversedNum = (reversedNum * 10) + lastDigit;
+//     num = Math.floor(num / 10);
+//   }
+//   return reversedNum;
+// }  
+//    console.log(10);
+
+//Q 6
+
+//    string_chop = function (str, size) {
+//     if (str == null) return [];
+//     str = String(str);
+//     size = size;
+//     return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+// }
+// console.log(string_chop('rustam'));
+// console.log(string_chop('rustam', 1));
+// console.log(string_chop('rustam', 2));
+// console.log(string_chop('rustam', 3));
+
+
+// Q 10
+
+// for (let a = 1; a <= 5; a++) {
+//   for (let i = 1; i <= 5; i++) {
+//     if (i>= a) {
+//       document.write(i+ " ");
+//     } else {
+//       document.write("&nbsp;&nbsp;");
+//     }
+//   }
+//   document.write("<br>");
+// }
+
+// // Q 9    
+
+
+// const arr0 = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]];
+// const arr1 = arr0.flatMap((arr) => arr[0] + arr[1]);
+// console.log(arr1);
+
+
+
